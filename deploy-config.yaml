@@ -1,0 +1,9 @@
+# GitHub Actions EC2 Deployment Configuration
+MainBranch: main
+NodeVersion: 20.x
+AwsRegion: 
+DeploymentPath: /home/ec2-user/
+UseNpm: true  # Set to false if using PM2
+StartCommand: start  # Used if UseNpm is true
+AppName: node-app  # Used if UseNpm is false (for PM2)
+RepoName:   # Name of your GitHub repository
