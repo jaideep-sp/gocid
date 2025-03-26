@@ -170,7 +170,7 @@ type CreateOrUpdateFileRequest struct {
 	Branch  string `json:"branch"`
 }
 
-func main() {
+func main2() {
 	// Setup viper to read from .env file for GitHub token
 	viper.SetConfigName(".env")
 	viper.SetConfigType("env")
